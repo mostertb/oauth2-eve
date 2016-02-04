@@ -1,0 +1,41 @@
+{
+    "name": "killmails/oauth2-eve",
+    "description": "EVE Online Oauth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Soban",
+            "email": "me@soban.co",
+            "homepage": "https://github.com/SobanVuex"
+        }
+    ],
+    "keywords" :[
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "eve",
+        "eve online",
+        "eveonline"
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Killmails\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Killmails\\OAuth2\\Client\\Test\\": "test/src/"
+        }
+    }
+}
