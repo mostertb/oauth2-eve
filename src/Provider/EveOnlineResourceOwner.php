@@ -39,7 +39,7 @@ class EveOnlineResourceOwner implements ResourceOwnerInterface
      *
      * @return int|null
      */
-    public function getCharacterId()
+    public function getCharacterID()
     {
         return $this->getId();
     }
