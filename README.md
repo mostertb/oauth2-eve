@@ -10,7 +10,7 @@
 
 EVE Online Provider for the OAuth 2.0 Client
 
-This package provides [EVE Online](https://developers.eveonline.com) OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/killmails/oauth2-eve).
+This package provides [EVE Online](https://developers.eveonline.com) OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 ## Installation
 
